@@ -46,6 +46,13 @@
     }
 
 ?>
+ $sql = "SELECT * FROM banner";
+        $stmt = $con->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        while($row = $result->fetch_assoc()){
+            $name = $row['name'];
+        }
 <!DOCTYPE html>
 <html lang="en">
 <head>
