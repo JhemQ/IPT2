@@ -1,1 +1,1 @@
-# IPT2
+# IPT2 - Collaboration
